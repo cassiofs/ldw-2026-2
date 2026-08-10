@@ -1,0 +1,16 @@
+{
+  "name": "isw033-projeto-time",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Projeto integrador da disciplina ISW-033 - Laboratorio de Desenvolvimento Web",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.js",
+    "doctor:completo": "node scripts/doctor-solucao-completa.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Sem testes ainda - configuramos na Sprint 1\" && exit 0"
+  }
+}
